@@ -1,0 +1,102 @@
+div {
+  width: 900px
+}
+
+.horiz-navbar {
+  background-color: #0000D1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 900px;
+}
+
+.navbar-link {
+    float: left;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #0000D1;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.ogc-banner {
+  width: 900px;
+  color: #FFFFFF;
+  background-color: #0000E1;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: x-large;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: large;
+}
+
+.art-table {
+  width: 900px;
+  border-style: none;
+}
+
+.caption {
+  font-size: small;
+  text-align: center;
+}
+
+.no-float {
+	clear: both;
+}
+
+.float-r {
+  float: right;
+}
+
+.float-l {
+  float: left;
+}
+
+.in-memory-pic {
+  margin: 10px;
+  float: left;
+}
+
+.thumb-table td {
+  width: 207px;
+  text-align: center;
+  border-spacing: 18px;
+  border-collapse: separate;
+}
+
+#thumb-table td {
+  border-spacing: 18px;
+  border-collapse: separate;
+}
+
+#thumb-table table {
+  width: 65px
+}
+
+#peoples-hearing-table {
+  width: 210px;
+}
+
+#pedie-video-thumb-table {
+  width = 900px;
+}
+
+#pedie-video-thumb-table table {
+  vertical-align: top;
+  width: 352px;
+}
+
+#pedie-video-thumb-table td {
+  vertical-align: top;
+}
+
+
