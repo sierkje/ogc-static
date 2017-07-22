@@ -178,6 +178,6 @@ div {
 }
 
 .quotation__credit::before {
-  content: '&mdash;&nbsp;';
+  content: '— ';
   display: inline-block;
 }
