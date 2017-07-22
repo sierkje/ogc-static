@@ -169,9 +169,15 @@ div {
 
 .quotation__body {
   font-style: italic;
+  font-weight: bold;
 }
 
 .quotation__credit {
   font-size: .9em;
   text-align: right;
+}
+
+.quotation__credit::before {
+  content: '&mdash;&nbsp;';
+  display: inline-block;
 }
