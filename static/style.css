@@ -1,5 +1,20 @@
 div {
-  width: 900px
+  width: 56.125rem;
+  max-width: 100%;
+}
+
+iframe,
+img,
+table {
+  max-width: 100%;
+}
+
+hr {
+  border: 0 none transparent;
+  border-top: 1px dotted hsl(0, 0%, 40%);
+  color: transparent;
+  height: 0;
+  padding: 0;
 }
 
 .horiz-navbar {
@@ -8,7 +23,8 @@ div {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  width: 900px;
+  width: 56.125rem;
+  max-width: 100%;
 }
 
 .navbar-link {
@@ -23,7 +39,8 @@ div {
 }
 
 .ogc-banner {
-  width: 900px;
+  width: 56.125rem;
+  max-width: 100%;
   color: #FFFFFF;
   background-color: #0000E1;
   text-align: center;
@@ -40,7 +57,8 @@ div {
 }
 
 .art-table {
-  width: 900px;
+  width: 56.125rem;
+  max-width: 100%;
   border-style: none;
 }
 
@@ -68,6 +86,7 @@ div {
 
 .thumb-table td {
   width: 207px;
+  max-width: 100%;
   text-align: center;
   border-spacing: 18px;
   border-collapse: separate;
@@ -79,24 +98,51 @@ div {
 }
 
 #thumb-table table {
-  width: 65px
+  width: 65px;
+  max-width: 100%;
 }
 
 #peoples-hearing-table {
   width: 210px;
+  max-width: 100%;
 }
 
 #pedie-video-thumb-table {
-  width: 900px;
+  width: 56.125rem;
+  max-width: 100%;
 }
 
 #pedie-video-thumb-table table {
   vertical-align: top;
   width: 352px;
+  max-width: 100%;
 }
 
 #pedie-video-thumb-table td {
   vertical-align: top;
+}
+
+.float {
+  display: block;
+  margin: 0 0 1em 0;
+  max-width: 40%;
+  padding: 0;
+}
+
+.float--left {
+  float: left;
+  margin-right: 1em;
+}
+
+.float--right {
+  float: right;
+  margin-left: 1em;
+}
+
+.float__img {
+  border: 1px solid hsl(0, 0%, 60%);
+  width: 100%;
+  height: auto;
 }
 
 .larger-text {
@@ -129,50 +175,74 @@ div {
   margin-top: 0;
 }
 
-.article-content,
-.article-content * {
+.important-text {
+  font-weight: bold;
+}
+
+.meeting-info,
+.meeting-info *,
+.post,
+.post *,
+.footer,
+.footer * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.article-content {
-  border-top: 2px solid #999;
-  margin-top: 1rem;
-  max-width: 900px;
+.meeting-info,
+.post,
+.footer {
+  width: 56.125rem;
+  max-width: 100%;
+  margin: .675rem;
+  position: relative;
 }
 
-.article-content__title {
+.meeting-info::after,
+.post::after,
+.footer__content::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.meeting-info {
+  font-size: 1.333em;
+  text-align: center;
+}
+
+.meeting-info__note {
+  color: hsl(39, 100%, 50%);
+}
+
+.post {
+  /*border-radius: .25rem;*/
+  /*border: 1px solid #ddd;*/
+  border-top: 1px dotted hsl(0, 0%, 40%);
+  margin-bottom: 1.5rem;
+  padding: .675rem;
+  /*box-shadow: .25rem .25rem .75rem .25rem hsla(0, 0%, 50%, 0.5);*/
+}
+
+.post__title {
   font-size: 1.5em;
 }
 
-.article-content__title-prefix {
-  font-weight: bold;
-}
-
-.article-content__img--left {
-  display: block;
-  float: left;
-  margin: 1em 1em 1em 0;
-}
-
-.article-content__img--right {
-  display: block;
-  float: right;
-  margin: 1em 0 1em 1em;
-}
-
-.article-content__info-box {
-  border: 1px solid #ccc;
-  padding: 0 1rem;
+.footer__content {
+  border: 1px dotted hsl(0, 0%, 40%);
+  margin: 1rem -.5rem;
+  padding: .5rem;
 }
 
 .quotation__body {
+  display: block;
   font-style: italic;
   font-weight: bold;
 }
 
 .quotation__credit {
+  display: block;
   font-size: .9em;
   text-align: right;
 }
