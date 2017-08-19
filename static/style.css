@@ -251,3 +251,9 @@ hr {
   content: '— ';
   display: inline-block;
 }
+
+.inline-doc {
+  border-left: 2px dotted hsl(198, 0%, 52%);
+  padding-left: .5rem;
+  font-style: oblique;
+}
