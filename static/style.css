@@ -204,12 +204,7 @@ hr {
 }
 
 .meeting-info {
-  font-size: 1.333em;
   text-align: center;
-}
-
-.meeting-info__note {
-  color: hsl(39, 100%, 50%);
 }
 
 .post {
