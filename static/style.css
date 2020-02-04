@@ -38,6 +38,10 @@ hr {
     text-decoration: none;
 }
 
+button.navbar-link {
+  border: 0 solid transparent;
+}
+
 .ogc-banner {
   width: 56.125rem;
   max-width: 100%;
