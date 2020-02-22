@@ -145,6 +145,13 @@ hr {
   height: auto;
 }
 
+.info-box {
+  border: 1px solid hsl(0, 0%, 60%);
+  width: 100%;
+  margin: .675rem -0.25rem ;
+  padding: 0.25rem;
+}
+
 .larger-text {
   font-size: 1.1em;
 }
